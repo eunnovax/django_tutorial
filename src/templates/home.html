@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        <h1>Hello Homepage</h1>
+        {{ request.user.is_authenticated }}
+        <h2>Templates</h2>
+{% endblock %}
+    
